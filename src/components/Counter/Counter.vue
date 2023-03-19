@@ -1,7 +1,7 @@
 <script setup>
   import { reactive, ref, watchEffect } from 'vue';
 
-  const counter = ref(0);
+  const counter = ref(1);
   const date = ref(new Date().toLocaleTimeString());
 
   watchEffect(() => {
