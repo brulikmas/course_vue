@@ -1,10 +1,10 @@
 <script setup>
-import Counter from "./components/Counter/Counter.vue"
+import Cards from "./components/Cards/Cards.vue"
 </script>
 
 <template>
   <h1>Hello</h1>
-  <Counter></Counter>
+  <Cards></Cards>
 </template>
 
 <style scoped>
