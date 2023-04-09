@@ -32,10 +32,7 @@
 <template>
   <input :class="css.input" v-model="textForFind">
   <template v-for="(item, index) in cards" :key="index">
-    <OneCard v-if="findCard(item)" v-slot="{ discountForUser }">
-      <h2>{{ item.name }}</h2>
-      <p>{{ item.price }} Your discount: {{ discountForUser }}</p>
-    </OneCard>
+
   </template>
 
 </template>
