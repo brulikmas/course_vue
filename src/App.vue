@@ -1,14 +1,20 @@
 <script setup>
-import Cards from "./components/Cards/Cards.vue"
+  import Snackbar from './components/Snackbar.vue';
+  import { ref } from 'vue';
+  const isShow = ref(false);
 </script>
 
 <template>
-  <h1>Hello</h1>
-  <Cards></Cards>
+  <button @click="isShow = true">Show Snackbar</button>
+  <Teleport to="body">
+    <Snackbar 
+      :show="isShow" 
+      @close="isShow = false">
+    </Snackbar>
+  </Teleport>
+  
 </template>
 
 <style scoped>
-  h1{
-    text-align: center;
-  }
+
 </style>
