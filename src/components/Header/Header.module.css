@@ -1,0 +1,21 @@
+.header {
+  height: 50px;
+  background: linear-gradient(90deg, rgb(188, 137, 236) 80%, rgb(229, 202, 255));
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 0 20px;
+}
+
+.header__logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.header__search {
+  flex-grow: 1;
+}

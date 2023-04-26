@@ -1,0 +1,42 @@
+export const lettersMock = [
+  {
+    title: "Привет, это нове письмо",
+    isImportant: true,
+    sender: "Kirill",
+    senderMail: "mail@kirya.com",
+    date: Date.now(),
+    isChecked: true,
+  },
+  {
+    title: "Привет, это нове письмо",
+    isImportant: false,
+    sender: "Kirill",
+    senderMail: "mail@kirya.com",
+    date: Date.now(),
+    isChecked: false,
+  },
+  {
+    title: "Привет, это нове письмо",
+    isImportant: false,
+    sender: "Kirill",
+    senderMail: "mail@kirya.com",
+    date: Date.now(),
+    isChecked: false,
+  },
+  {
+    title: "Привет, это нове письмо",
+    isImportant: false,
+    sender: "Kirill",
+    senderMail: "mail@kirya.com",
+    date: Date.now(),
+    isChecked: false,
+  },
+  {
+    title: "Привет, это нове письмо",
+    isImportant: false,
+    sender: "Kirill",
+    senderMail: "mail@kirya.com",
+    date: Date.now(),
+    isChecked: false,
+  },
+]
