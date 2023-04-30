@@ -1,5 +1,5 @@
 <script setup>
-import css from '../styles/Snackbar.module.css';
+import css from './Snackbar.module.css';
 import { Teleport } from 'vue';
 defineEmits(["close"]);
 defineProps({
@@ -9,6 +9,7 @@ defineProps({
 </script>
 
 <template>
+  <Teleport to="#snackbar">
     <Transition>
       <div v-if="show" :class="css.snackbar">
         <div :class="css.snackbar_body">
@@ -17,6 +18,7 @@ defineProps({
         </div>
       </div>
     </Transition>
+  </Teleport>
 </template>
 
 <style scoped>
